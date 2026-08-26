@@ -1,0 +1,43 @@
+body{
+    max-width: 100vw;
+}
+header{
+    background-color: #410c3b;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+main {
+    background-color: #4a0f56;
+    color: #f5f3f3;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+article {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   border: 1px solid darkblue;
+   padding: 16px;
+   box-sizing: border-box;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+   width: calc(33.333% - 32px); 
+   margin: 16px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.artigo-autor{
+            font-weight: bold;
+}
+.direitos{
+    text-align: center;
+    color: darkblue;
+}
